@@ -1,0 +1,276 @@
+{
+  "talks": [
+    {
+      "type": "WORKSHOP",
+      "description": "In this workshop, you step into the role of a startup that has assumed the challenge of providing a new type of EDM music festival experience. Your goal is to use machine learning (ML) and IoT to develop a connected fan experience that enhances the festival. Come and get hands-on experience with Amazon SageMaker with Intel C5 instances, AWS DeepLens, AWS Greengrass, Amazon Rekognition, and AWS Lambda as you build and deploy an ML model and then run inference on it from the cloud and from edge devices.",
+      "tags": [
+        "cloud",
+        "advanced",
+        "ai",
+        "ml"
+      ],
+      "title": "Deep Learning for Edge to Cloud"
+    },
+    {
+      "type": "SESSION",
+      "description": "Leading companies are using machine learning (ML) to power innovation across industries, including healthcare, automotive, and finance. In this session, learn how to build scalable ML solutions using the Amazon SageMaker platform, as well as our services for computer vision, language, and analytics. We also demonstrate real-world use cases for enterprises to get more value from their data and integrate and manage intelligent systems and processes.",
+      "tags": [
+        "cloud",
+        "introductory",
+        "ai",
+        "ml"
+      ],
+      "title": "Machine Learning for the Enterprise"
+    },
+    {
+      "type": "LIGHTNING",
+      "description": "In this session, get general help on how to build or extend a project with AWS DeepLens.",
+      "tags": [
+        "cloud",
+        "advanced",
+        "ai",
+        "ml"
+      ],
+      "title": "AWS DeepLens Projects: Tips & Tricks"
+    },
+    {
+      "type": "SESSION",
+      "description": "Deep learning has the potential to enable extremely advanced AI applications. But it's not taught in most computer science programs, and you may have a lot of questions. In this session, understand how deep learning works, and learn key concepts such as neural networks, activation functions, and optimizers. We show you how deep learning models improve through complex pattern recognition in pictures, text, sounds, and other data to produce more accurate insights and predictions. We also share examples of common deep learning use cases, such as computer vision and recommendation models. Finally, we help you understand how to get started using popular deep learning frameworks, such as TensorFlow, Apache MXNet, and PyTorch.",
+      "tags": [
+        "cloud",
+        "advanced",
+        "ai",
+        "ml"
+      ],
+      "title": "Deep Learning for Developers: An Introduction"
+    },
+    {
+      "type": "SESSION",
+      "description": "Machine learning (ML) enables developers to build scalable solutions that maximizes the use of media assets through automatic metadata extraction. From automatic transcription and language translation to face detection and celebrity recognition, ML enables you to automate manual workflows and optimize the use of your video content. In this session, learn how to use services such as Amazon Rekognition, Amazon Translate, and Amazon Comprehend to build a searchable video library, automate the creation of highlight reels, and more.",
+      "tags": [
+        "cloud",
+        "expert",
+        "ai",
+        "ml"
+      ],
+      "title": "Unlock the Full Potential of Your Media Assets"
+    },
+    {
+      "type": "WORKSHOP",
+      "description": "Consumers today freely express their satisfaction or frustration with a company or product online through social media, blogs, and review platforms. Sentiment analysis can help companies better understand their customers' opinions and needs, and make more informed business decisions. In this workshop, learn how to use Amazon Comprehend to analyze sentiment. Also learn how to build a serverless data processing pipeline that consumes raw Amazon product reviews from Amazon S3, cleans the dataset, extracts sentiment from each review, and writes the output back to Amazon S3.",
+      "tags": [
+        "cloud",
+        "expert",
+        "ai",
+        "ml"
+      ],
+      "title": "Build an ETL Pipeline to Analyze Customer Data"
+    },
+    {
+      "type": "SESSION",
+      "description": "By creating a monetized Alexa skill from scratch, developers in this session learn how to leverage Alexa in-skill purchasing APIs, Amazon Pay, and developer reporting tools to help unlock premium digital content in a custom voice experience. See how in-skill purchasing enables customers and developers the flexibility of payment through a subscription, one-time entitlement, or by consumables. Dive deep, and leave this session with everything you need to know to make money with Alexa skills.",
+      "tags": [
+        "cloud",
+        "advanced",
+        "alexa"
+      ],
+      "title": "Make Money with Alexa Skills"
+    },
+    {
+      "type": "LIGHTNING",
+      "description": "Many of today's text-to-speech systems limit your choices to a few voices. If these voices aren't right for your needs, the process of adding more voices is usually costly and time consuming. Learn how you can use Amazon Polly for speech production and to modify voices for a range of uses, from game development and telephony to web publishing.",
+      "tags": [
+        "cloud",
+        "advanced",
+        "ai",
+        "ml"
+      ],
+      "title": "Create the Voices You Want with Amazon Polly"
+    },
+    {
+      "type": "WORKSHOP",
+      "description": "In this lab, we use a scheduled AWS Lambda function to pull data from the describe calls for Amazon RDS, Amazon DynamoDB, Amazon EC2, AWS CloudFormation, IAM, Elastic Load Balancing, Amazon Kinesis, Amazon Redshift, and more into Amazon Elasticsearch Service (Amazon ES). We couple this data with AWS CloudTrail data, and dig into it with Kibana to give you a real-time window into your AWS usage.",
+      "tags": [
+        "cloud",
+        "advanced",
+        "analytics"
+      ],
+      "title": "Monitor Your AWS Usage with Amazon ES"
+    },
+    {
+      "type": "SESSION",
+      "description": "In this talk, Anurag Gupta, VP for AWS Analytic and Transactional Database Services, talks about some of the key trends we see in data lakes and analytics, and he describes how they shape the services we offer at AWS. Specific trends include the rise of machine-generated logs as the dominant source of data, the move towards serverless, SPI-centric computing, and the growing need for local access to data from users around the world.",
+      "tags": [
+        "cloud",
+        "introductory",
+        "analytics"
+      ],
+      "title": "Technology Trends: Data Lakes and Analytics"
+    },
+    {
+      "type": "LIGHTNING",
+      "description": "In this session, learn how to use TensorFlow in the Amazon SageMaker machine learning platform.",
+      "tags": [
+        "cloud",
+        "advanced",
+        "ai",
+        "ml"
+      ],
+      "title": "Amazon SageMaker and TensorFlow: Tips & Tricks"
+    },
+    {
+      "type": "KEYNOTE",
+      "description": "Machine learning (ML) can help people with disabilities by using facial and object recognition, text-to-speech, automatic translation, and transcription to create assistive applications. In this chalk talk, learn how to assemble ML APIs from AWS to help people in new ways.",
+      "tags": [
+        "cloud",
+        "advanced",
+        "ai",
+        "ml"
+      ],
+      "title": "Improve Accessibility Using Machine Learning"
+    },
+    {
+      "type": "LIGHTNING",
+      "description": "In this session, you use an automated test suite to bombard an application with an increasing number of concurrent users. You then identify the bottlenecks and refactor the application. Find out how many concurrent users can you get to.",
+      "tags": [
+        "cloud",
+        "expert",
+        "architecture"
+      ],
+      "title": "Scale up a Web Application"
+    },
+    {
+      "type": "SESSION",
+      "description": "Amazon Athena is an interactive query service that enables you to process data directly from Amazon S3 without the need for infrastructure. Since its launch at re:invent 2016, several organizations have adopted Athena as the central tool to process all their data. In this talk, we dive deep into the most common use cases, including working with other AWS services. We review the best practices for creating tables and partitions and performance optimizations. We also dive into how Athena handles security, authorization, and authentication. Lastly, we hear from a customer who has reduced costs and improved time to market by deploying Athena across their organization.",
+      "tags": [
+        "cloud",
+        "advanced",
+        "analytics"
+      ],
+      "title": "What's New in Amazon Athena"
+    },
+    {
+      "type": "WORKSHOP",
+      "description": "A modern service consists of many microservices working together. But how do you know they are all working together? How can you outwit entropy? The answer, as with so many issues, is logs, plus a strong and automated log analyzer. In this session, we show how you can manage workflow and error management by using logs and Amazon Elasticsearch Service (Amazon ES) to create massively scalable, yet manageable, microservices solutions.",
+      "tags": [
+        "cloud",
+        "advanced",
+        "analytics"
+      ],
+      "title": "Log Analytics with Amazon ES, Amazon ECS, and Amazon EKS"
+    },
+    {
+      "type": "SESSION",
+      "description": "In this session, learn about reference architectures for common applications and how you can incorporate reference architecture into your architecture process.",
+      "tags": [
+        "cloud",
+        "introductory",
+        "architecture"
+      ],
+      "title": "AWS Reference Architectures"
+    },
+    {
+      "type": "SESSION",
+      "description": "As serverless architectures become more popular, customers need a framework of patterns to help them identify how to leverage AWS to deploy their workloads without managing servers or operating systems. This session describes reusable serverless patterns while considering costs. For each pattern, we provide operational and security best practices and discuss potential pitfalls and nuances. We also discuss the considerations for moving an existing server-based workload to a serverless architecture. This session can help you recognize candidates for serverless architectures in your own organizations and understand areas of potential savings and increased agility.",
+      "tags": [
+        "cloud",
+        "advanced",
+        "architecture"
+      ],
+      "title": "Serverless Architectural Patterns and Best Practices"
+    },
+    {
+      "type": "KEYNOTE",
+      "description": "Companies have ever-growing media libraries, making them increasingly difficult to index and search. In this session, we describe how to maintain your library by using Amazon Rekognition, Amazon Transcribe, and Amazon Comprehend to perform automatic metadata extraction from image, video, and audio files. We show you how to then use this metadata to build a serverless media library that can be filtered by image tags, celebrities, and more.",
+      "tags": [
+        "cloud",
+        "advanced",
+        "ai",
+        "ml"
+      ],
+      "title": "Create a Serverless Searchable Media Library"
+    },
+    {
+      "type": "SESSION",
+      "description": "At Audible, we have invested in chaos engineering. In this session, we describe the experiment frameworks and some of the testing we’ve done on AWS, including using serverless technologies. We also discuss the scalability testing that we performed in order to gain full confidence in our entire system.",
+      "tags": [
+        "cloud",
+        "advanced",
+        "architecture"
+      ],
+      "title": "Chaos Engineering and Scalability at Audible.com"
+    },
+    {
+      "type": "SESSION",
+      "description": "Amazon Kinesis makes it easy to increase the time it takes to get valuable, real-time insights from your data. In this session, we walk through the most popular applications that customers implement using Kinesis, including streaming extract-transform-load (ETL), continuous metric generation, and responsive analytics. For each application, we compare implementation options for each and discuss how to decide which AWS service to use. Each implementation option covers different Kinesis integrations, including AWS Lambda, Amazon Elasticsearch Service, Amazon S3, Amazon EMR, AWS Glue, and AWS database services.",
+      "tags": [
+        "cloud",
+        "advanced",
+        "analytics"
+      ],
+      "title": "Real-Time Analytics with AWS"
+    },
+    {
+      "type": "CLOSING",
+      "description": "Aimed at finance and management functions, this talk explains what cost optimization means in the cloud and how you can enable your organization to optimize costs. We break down what optimization actually means and how much you should invest in it. We then discuss the cultural aspects to address when promoting optimization and developing capability across your business. Finally, we explore some of the common areas in which to achieve optimization: governance, pricing models, financial processes, service selection, and cost controls.",
+      "tags": [
+        "cloud",
+        "introductory",
+        "architecture"
+      ],
+      "title": "Effective Cost Optimization for Business"
+    },
+    {
+      "type": "LIGHTNING",
+      "description": "In this session, learn how to use Chainer, an open-source deep learning framework written in Python, in the Amazon SageMaker machine learning platform.",
+      "tags": [
+        "cloud",
+        "advanced",
+        "ai",
+        "ml"
+      ],
+      "title": "Amazon SageMaker and Chainer: Tips & Tricks"
+    },
+    {
+      "type": "CLOSING",
+      "description": "When indexing large amounts of media files, it can become difficult to search through them to find certain objects and individuals. In this session, we show you how creating a custom celebrity list enables you to index your media files by the people you train it to recognize. Come and see how this solution can serve as the foundation for creating automated sports highlight reels, building face-based user verification systems, and more.",
+      "tags": [
+        "cloud",
+        "advanced",
+        "ai",
+        "ml"
+      ],
+      "title": "Create a Custom Celebrity List for Your Media Assets"
+    },
+    {
+      "type": "SESSION",
+      "description": "An engaging conversation has three core pillars: memory (remembering what the user said), efficient data collection (gathering information in a nonrobotic way), and letting people talk in a natural way (handling errors and allowing context switching). In this session, learn how to use these three pillars to create engaging conversational voice experiences, from concept to implementation.",
+      "tags": [
+        "cloud",
+        "advanced",
+        "alexa"
+      ],
+      "title": "Three Core Pillars of Conversational UX for Alexa"
+    },
+    {
+      "type": "WORKSHOP",
+      "description": "In this session, learn how to set up your data lake on Amazon S3 and automatically catalog it in the AWS Glue Data Catalog with AWS Glue crawlers. Also learn how to auto-generate an AWS Glue ETL script, download it, and interactively edit it in Amazon SageMaker, connected to an AWS Glue development endpoint. After that, we show you how to deploy this script into production by adding appropriate scheduling and triggering conditions and creating an AWS CloudFormation template. The resulting datasets will automatically get registered in the AWS Glue Data Catalog, and you can then query these new datasets from Amazon EMR and Amazon Athena. Prerequisites: Knowledge of Python and familiarity with big data applications is preferred but not required. Attendees must bring their own laptops.",
+      "tags": [
+        "cloud",
+        "advanced",
+        "analytics"
+      ],
+      "title": "Serverless Data Prep with AWS Glue"
+    },
+    {
+      "type": "WORKSHOP",
+      "description": "In few hours, quickly learn how to effectively leverage various AWS services to improve developer productivity and reduce the overall time to market for new product capabilities. In this session, we demonstrate a prescriptive approach to incrementally adopt and embrace some of the best practices around continuous integration and delivery using AWS developer tools and third-party solutions, including AWS CodeCommit, AWS CodeBuild, Jenkins, AWS CodePipeline, AWS CodeDeploy, AWS X-Ray, and AWS Cloud9. We also highlight some best practices and productivity tips that can help make your software release process fast, automated, and reliable.",
+      "tags": [
+        "cloud",
+        "advanced",
+        "devops"
+      ],
+      "title": "AWS DevOps Essentials: An Introductory Workshop on CI/CD Best Practices"
+    }
+  ]
+}
