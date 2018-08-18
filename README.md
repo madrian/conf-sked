@@ -73,6 +73,25 @@ location by adding it in the command line argument.
 java -jar target/conf-sked.jar /path/to/mycustom.properties
 ```
 
+### Docker image
+If you are familiar with docker, a docker image is also available to run this
+without downloading the code. The DockerHub image is `adr1/conf-sked`.
+
+#### Running the image
+This will run the application using the default settings and talks.
+
+```bash
+docker run --rm adr1/conf-sked
+```
+
+#### Running the image with mounted volumes 
+This will run the application using your own settings and talks at the current
+working directory mounted to `/conf` on the container.
+
+```bash
+docker run --rm -v $PWD:/conf adr1/conf-sked /conf/scheduler.properties
+```
+
 ## Specifications
 
 ### Talk types
